@@ -1,0 +1,19 @@
+{
+    "files": [
+        "bin",
+        "lib",
+        "!lib/enu",
+        "LICENSE.txt",
+        "README.md",
+        "SECURITY.md",
+        "ThirdPartyNoticeText.txt",
+        "!**/.gitattributes"
+    ],
+
+    "img" : "xjkjsllkxlk;lxlxkxllxkdkfkfpfggkglgl"
+
+    
+    
+}
+
+

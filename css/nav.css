@@ -1,0 +1,172 @@
+* Navbar Styles */
+  .navbar {
+    background-color: #333;
+    color: #fff;
+
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav-links li {
+    position: relative;
+  }
+  #yy{
+    display: flex ;
+    flex-direction: row  !important;
+    padding-top: 0px;
+  }
+
+  .add{
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+    padding-top: 9px !important;
+  }
+.addd{
+  padding-right: 4px !important;
+  margin-right: 0 !important;
+  padding-top: 8px !important;
+  
+
+}
+  
+.nav-links a {
+    text-decoration: none;
+  color: #fff !important;
+    
+    transition: background 0.3s;
+  }
+  
+  .nav-links a:hover {
+    background: #555;
+    border-radius: 5px;
+  }
+  
+  /* Reduce navbar padding */
+.navbar {
+  padding: 0.5rem 1rem; /* Adjust values as needed */
+  color: #fff !important;
+}
+
+/* Reduce brand font size */
+.navbar-brand {
+  font-size: 1.25rem; /* Adjust to fit design */
+}
+
+/* Reduce link padding */
+.nav-link {
+  padding: 0.5rem 0.75rem;
+  font-size: 0.9rem; /* Adjust font size */
+}
+
+/* Adjust dropdown menu */
+.dropdown-menu {
+  font-size: 0.85rem; /* Smaller text for dropdown items */
+}
+
+/* Make sure toggler aligns nicely */
+.navbar-toggler {
+  padding: 0.25rem 0.5rem;
+}
+
+ 
+  .dropdown li {
+    width: 150px;
+  }
+  
+  .dropdown a {
+    padding: 10px;
+    display: block;
+  }
+  
+  .nav-links li:hover .dropdown {
+    display: block;
+  }
+
+  /* Footer styling */
+.footer {
+  background: #111;
+  color: #fff;
+  padding: 40px 0;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.footer-social {
+  margin-bottom: 20px;
+}
+
+.social-link {
+  margin: 0 10px;
+  color: #fff;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+.social-link:hover {
+  color: #f39c12; /* Stylish hover effect */
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-links li {
+  margin: 0 15px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #f39c12;
+}
+
+.footer-copy {
+  font-size: 12px;
+  margin-top: 20px;
+  color: #bbb;
+}
+
+.gall{
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 20px;
+  overflow: visible; /* Hide any content/images that exceed the height */
+  position: relative;
+  height: auto !important;
+  
+ }
+ .gall {
+  overflow: hidden; /* Hide any content/images that exceed the height */
+  position: relative;
+}

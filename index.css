@@ -1,0 +1,325 @@
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+
+
+.hero {
+    position: relative;
+    background-image: url('res/main-pic.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    height: 100vh;
+    padding: 100px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+
+  .nav-item{
+    font-weight: 500;
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3); /* Adjust the darkness (0.5 = 50% dark) */
+    z-index: 1;
+  }
+  #yy{
+    display: flex ;
+    flex-direction: row  !important;
+    padding-top: 0px;
+  }
+
+  .add{
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+    padding-top: 9px !important;
+  }
+.addd{
+  padding-right: 4px !important;
+  margin-right: 0 !important;
+  padding-top: 8px !important;
+  
+
+}
+
+/* Reduce brand font size */
+
+
+  .hero h1 {
+    position: relative;
+    font-size: 3em;
+    margin-bottom: 0.5em;
+    z-index:4;
+  }
+  .hero p {
+    position: relative;
+    font-size: 1.2em;
+    margin-bottom: 1em;
+    z-index: 4;
+  }
+  .btns {
+    position: relative;
+    background-color: #ff9900;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s;
+    z-index: 4;
+  }
+  .btns:hover {
+    background-color: #ff7800;
+  }
+.row{
+  margin-right: -5px;
+  margin-left: -5px;
+  padding: 2px;
+}
+  .gallery-img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    
+    margin-bottom: 15px; /* Space between images */
+    transition: transform 0.3s;
+    gap: 0;
+    padding: 0;
+    
+  }
+  .gallery-img:hover {
+    transform: scale(1.05);
+  }
+
+ .gall {
+  height: 3000px; /* Set the desired height of the gallery section */
+  overflow: hidden; /* Hide any content/images that exceed the height */
+  position: relative;
+  margin: 0 !important;
+}
+
+
+.about_section{
+  width: 100%;
+  padding: 20px;
+  padding-top: 0px;
+  margin-top: 0px;
+  background-color: rgb(22, 22, 22);
+}
+
+.section-divider {
+  position: relative;
+  width: 100%; /* Make the line span the full width of the section */
+  height: 2px; /* Set the thickness of the line */
+  background-color: grey; /* Line color (adjust as needed) */
+  border: none; /* Remove the default border of the <hr> element */
+  margin: 0px 0; /* Add vertical spacing around the line */
+}
+
+.about_section .box .img-box {
+  -webkit-box-flex: 1;
+  border-right: 2px solid red;
+  border: 4px solid green;
+  border-right: none;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+/* light box for image gallary */
+
+/* Fancy Lightbox Styling */
+/* Fullscreen Lightbox */
+.fancy-lightbox .modal-dialog {
+  width: 100vw !important; /* Full viewport width */
+  height: 100vh !important; /* Full viewport height */
+  max-width: 100% !important; /* Remove column constraints */
+  margin: 0; /* Remove default margins */
+  padding: 0; /* Remove default padding */
+}
+
+.fancy-lightbox .modal-content {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9); /* Black background with slight transparency */
+  border: none; /* Remove borders */
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center content */
+}
+
+.fancy-lightbox .modal-header {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  z-index: 1000; /* Ensure close button is always visible */
+}
+
+.fancy-lightbox .modal-body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center content within modal */
+  padding: 0;
+}
+
+.fancy-lightbox .fancy-image {
+  max-width: 90%;
+  max-height: 90%;
+  object-fit: contain; /* Maintain aspect ratio */
+  border-radius: 10px; /* Rounded corners for the image */
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.6); /* Shadow for depth */
+}
+
+/* Optional: Add smooth fade-in animation */
+.fade .modal-dialog {
+  transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+}
+
+
+.col-md-4,
+.mb-4{
+  padding-left: 5px  !important;
+  padding-right: 5px !important;
+ 
+}
+
+
+/* style for portifo page */
+
+.dark-header {
+  text-align: center;
+  height: 50vh;
+  padding: 50px 20px;
+  position: relative;
+    background-image: url('../res/main-pic.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+  
+}
+.dark-header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Adjust the darkness (0.5 = 50% dark) */
+  z-index: 1;
+ 
+}
+
+.dark-header h1 {
+  font-size: 3rem;
+  z-index: 100;
+  text-transform: capitalize;
+  font-family: 'Cinzel Decorative', serif;
+font-style: italic;
+
+
+}
+
+.dark-header p {
+  font-size: 1.2rem;
+  color: #ddd;
+  z-index: 100;
+}
+
+/* Photo Gallery */
+.photo-gallery {
+  padding: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.grid-item img {
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.grid-item img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
+}
+
+/* Contact Section */
+.contact-section {
+  text-align: center;
+  padding: 50px 20px;
+  background: #1c1c1c;
+}
+
+.contact-section h2 {
+  margin-bottom: 20px;
+  color: #e91e63;
+}
+
+.contact-section form input,
+.contact-section form textarea {
+  width: 100%;
+  max-width: 500px;
+  padding: 10px;
+  margin: 10px auto;
+  display: block;
+  background: #292929;
+  border: 1px solid #444;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.contact-section form button {
+  background: #e91e63;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contact-section form button:hover {
+  background: #d0175e;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  position: fixed;
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  background: #04040f !important;
+  color: #aaa;
+}
+
+/* end of portifo */
