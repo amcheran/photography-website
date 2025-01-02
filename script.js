@@ -1,4 +1,28 @@
 
+function addImportantStyle() {
+  // Get all elements with the class 'H'
+  var elements = document.getElementsByClassName("H");
+
+  // Check if there are any elements with this class
+  if (elements.length > 0) {
+    // Loop through all the elements and apply the style
+    for (var i = 0; i < elements.length; i++) {
+      var element = elements[i];
+
+     
+      element.style.setProperty('color', 'red', 'important');
+      element.style.setProperty('font-weight', '500', 'important');
+      
+      
+      console.log("Style applied to element:", element);
+    }
+  } else {
+    console.log("No elements with class 'H' found.");
+  }
+}
+document.addEventListener('DOMContentLoaded', function() {
+  addImportantStyle();
+});
 
 
 
@@ -36,3 +60,5 @@ const rows = [
   }
   // Start cycling images
   cycleBackgroundImages();
+
+ 
